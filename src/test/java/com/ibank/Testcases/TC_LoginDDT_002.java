@@ -41,7 +41,7 @@ public class TC_LoginDDT_002 extends BaseClass
 			Thread.sleep(2000);
 			driver.switchTo().alert().accept();//logout alert
 			driver.switchTo().defaultContent();
-			log.info("Success logged out successfully");
+			log.info("Success loggeded out successfully");
 		}
 	}
 	public boolean isAlert()
