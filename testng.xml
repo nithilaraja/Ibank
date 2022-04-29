@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Ibank">
+<listeners>
+		<listener class-name="com.ibank.utilities.Reporting" />
+	</listeners>
+  <test name="BankNG">
+<parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.ibank.Testcases.TC_LoginTest_001"/>
+<!-- <class name="com.ibank.Testcases.TC_LoginDDT_002"/>-->
+<!--<class name="com.ibank.Testcases.TC_AddCustomerTest_003"/>-->
+    </classes>
+
+  </test> <!-- BankNG -->
+</suite> <!-- Suite -->
