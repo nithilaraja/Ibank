@@ -41,7 +41,7 @@ public class TC_AddCustomerTest_003 extends BaseClass {
 		
 		
 		log.info("validation started....");
-		
+		log.info("error log");
 		boolean res=driver.getPageSource().contains("Customer Registered Successfully!!!");
 		
 		if(res==true)
